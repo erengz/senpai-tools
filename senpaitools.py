@@ -14,7 +14,7 @@ import random
 from http import cookiejar
 
 #
-baslik = "\033[0;31m\033[1m[\033[0;32m\033[1mSenpai\033[0;31m\033[1m]>\033[1m\033[0;32m "
+baslik = "\033[0;31m\033[1m[\033[0;32m\033[1mSenpai-Tools\033[0;31m\033[1m]>\033[1m\033[0;32m "
 
 # Renkler
 sifirla = "\033[0m"
@@ -45,7 +45,7 @@ menu = "\033[1m" + """
 \033[0;31m[\033[0;33m5\033[0;31m]> \033[0;32m\033[1mFirewall Tespiti
 \033[0;31m[\033[0;33mx\033[0;31m]> \033[0;32m\033[1mÇıkış
 """
-print(colored(menu, "green"))
+print(colored(menu, "red"))
 try:
     while True:
         islem = input(baslik)
