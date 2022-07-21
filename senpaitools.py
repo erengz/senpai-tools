@@ -38,11 +38,11 @@ menu = "\033[1m" + """
 /___/\__/_//_/ .__/\_,_/_/   /_/  \___/\___/_/___/
             /_/
             
-\033[0;31m[\033[0;33m1\033[0;31m]> \033[0;32m\033[1mNmap - Ağ Taramasi
-\033[0;31m[\033[0;33m2\033[0;31m]> \033[0;32m\033[1mNikto - Sitede Zaafiyet Tespiti
-\033[0;31m[\033[0;33m3\033[0;31m]> \033[0;32m\033[1mAssetfinder - SubDomain Tespiti
-\033[0;31m[\033[0;33m4\033[0;31m]> \033[0;32m\033[1mDmitry - Bilgi Toplama
-\033[0;31m[\033[0;33m5\033[0;31m]> \033[0;32m\033[1mWafW00f - Firewall Tespiti
+\033[0;31m[\033[0;33m1\033[0;31m]> \033[0;32m\033[1mAğ Taramasi
+\033[0;31m[\033[0;33m2\033[0;31m]> \033[0;32m\033[1mSitede Zaafiyet Tespiti
+\033[0;31m[\033[0;33m3\033[0;31m]> \033[0;32m\033[1mSubDomain Tespiti
+\033[0;31m[\033[0;33m4\033[0;31m]> \033[0;32m\033[1mBilgi Toplama
+\033[0;31m[\033[0;33m5\033[0;31m]> \033[0;32m\033[1mFirewall Tespiti
 \033[0;31m[\033[0;33mx\033[0;31m]> \033[0;32m\033[1mÇıkış
 """
 print(colored(menu, "green"))
@@ -123,44 +123,7 @@ try:
                 """)
                 exit()
 
-            try:
-                while True:
-                    islem = input(baslik)
-
-                    if (islem == "1"):
-                        link = input(yildiz + " Site Linki: ")
-                        os.system("wpscan --url " + link + " -e u --random-user-agent")
-
-                    elif (islem == "2"):
-                        link = input(yildiz + " Site Linki: ")
-                        username = input(yildiz + " Kullanıcı Adı: ")
-                        wordlist = input(yildiz + " Wordlist Dizini: ")
-                        os.system(
-                            "wpscan --url " + link + " --usernames " + username + " --passwords " + wordlist + " --password-attack wp-login --random-user-agent")
-
-                    elif (islem == "3"):
-                        link = input(yildiz + " Site Linki: ")
-                        os.system("wpscan --url " + link + " --enumerate p --random-user-agent")
-
-                    elif (islem == "3"):
-                        link = input(yildiz + " Site Linki: ")
-                        os.system("wpscan --url " + link + " --enumerate t --random-user-agent")
-
-                    elif (islem == "5"):
-                        print(arti + " Ana Menüye Dönülüyor.")
-                        print(colored(menu, "green"))
-                        break
-
-                    else:
-                        print(unlem + " Geçerli bir işlem seçiniz...")
-                        time.sleep(2)
-
-            except KeyboardInterrupt:
-                print("""
-Çıkış Yapılıyor...
-                                """)
-                exit()
-
+ 
         elif (islem == "2"):
             try:
                 while True:
