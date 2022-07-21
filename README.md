@@ -1,17 +1,10 @@
-# senpai-tools
 
+Usage:
 
+sudo apt install python3-pip
 
+git clone https://github.com/senpailegal/senpai-tools
 
+python3 install.py
 
-
-   ____                   _   ______          __
-  / __/__ ___  ___  ___ _(_) /_  __/__  ___  / /__
- _\ \/ -_) _ \/ _ \/ _ `/ /   / / / _ \/ _ \/ (_-<
-/___/\__/_//_/ .__/\_,_/_/   /_/  \___/\___/_/___/
-            /_/
-            
- Usage:
- python3 install.py
- python3 senpai-tools.py
-            
+python3 senpai-tools.py
