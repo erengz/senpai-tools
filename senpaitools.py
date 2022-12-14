@@ -40,7 +40,6 @@ menu = "\033[1m" + """
  _____) )      | |   
 (______/       |_|    v0.0.2
 
-Bugün Eren "senpailegal" Gürbüz'ün doğum günü!
 
 www.senpailegal.cf
                     
