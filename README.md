@@ -1,6 +1,6 @@
 
 
-![Screenshot_2](https://github.com/senpailegal/senpai-tools/assets/103486686/d20e0737-8324-48a3-b16a-489da717f1ff)
+![Screenshot_2](https://github.com/senpailegal/senpai-tools/assets/103486686/f31327bc-8406-4490-8b79-98759c219fb7)
 
 Usage:
 
