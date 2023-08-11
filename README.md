@@ -1,6 +1,6 @@
 
 
-![githuber](https://user-images.githubusercontent.com/103486686/180169106-e8159978-17bb-421f-9e7d-e5b0cc259699.png)
+![Screenshot_1](https://github.com/senpailegal/senpai-tools/assets/103486686/5137167f-15c4-4011-b441-700c3e120660)
 
 Usage:
 
